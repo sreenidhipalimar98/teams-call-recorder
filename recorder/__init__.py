@@ -1,0 +1,1 @@
+"""Teams Call Recorder package."""

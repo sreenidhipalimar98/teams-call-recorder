@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+dist/
+installer_output/
+*.spec.bak
+
+# Bundled binaries (too large for GitHub; fetched/placed locally when building)
+vendor/*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Recordings (never commit captured calls)
+*.mp4
+Recordings/
+
+# Kiro local settings (may contain secrets/tokens — never commit)
+.kiro/settings/
+mcp.json
